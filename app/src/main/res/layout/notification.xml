@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ff244343">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/radio"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notifi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSKURANEE KI.."
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/n1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="-30dp"
+            android:background="@android:drawable/ic_delete" />
+
+
+            <Button
+                android:id="@+id/n2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:background="@android:drawable/ic_media_previous"/>
+
+        <Button
+            android:id="@+id/n3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:background="@android:drawable/ic_media_play"/>
+        <Button
+            android:id="@+id/n4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-40dp"
+            android:background="@android:drawable/ic_media_next"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
